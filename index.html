@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/container.css">
+    <link rel="stylesheet" href="CSS/form.css">
+    <link rel="stylesheet" href="CSS/section.css">
+    <link rel="stylesheet" href="CSS/tasks.css">
+    <script defer src="JS/script.js"></script>
+    <title>Lista Zadań</title>
+</head>
+
+<body>
+    <main class="container">
+        <header>
+            <h1>Lista Zadań</h1>
+        </header>
+        <section class="new-task">
+            <div class="sectionHeader">
+                <h2>Dodaj nowe zadanie</h2>
+            </div>
+            <div class="sectionBody">
+                <form class="form js-form">
+                    <input class="js-newTask formField" type="text" name="task" placeholder="Co jest do zrobienia?" autofocus required>
+
+                    <button class="formButton">Dodaj zadanie</button>
+            </div>
+            </form>
+        </section>
+
+        <section class="tasks">
+            <div class="sectionHeader">
+                <h2>Zadania:</h2>
+            </div>
+            <div class="sectionBody">
+                <ul class="tasksList js-tasks">
+                    <li class="task__item js-task">
+                        <button class="tasks__button tasks__buton--done js-toggleDone">hh</button>
+                        <span class="tasks__content tasks__content--done">zrobic liste</span>
+                        <button class="tasks__button tasks__button--remove js-remove">x</button>
+                    </li>
+
+
+                </ul>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+</body>
+
+</html>

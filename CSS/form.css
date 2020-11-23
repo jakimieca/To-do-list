@@ -1,0 +1,24 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+    height: 35px;
+}
+
+@media(max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+}
+
+.formField {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.formButton {
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,16 @@
+.new-task,
+.tasks {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.sectionHeader {
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.sectionBody {
+    padding: 20px 0;
+}
